@@ -6,5 +6,38 @@
         height: auto;
     }
 </style>
-{{!-- Get: phone #, email, date and time, name, left or right handed --}}
+<section>
+    <div>
+        <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="POST">
+            <div class="mb-3">
+                <label for="inputName" class="form-label">Name</label>
+                <input type="text" class="form-control" name="name" id="inputName">
+            </div>
+            <div class="mb-3">
+                <label for="inputEmail" class="form-label">Email address</label>
+                <input type="email" class="form-control" name="email" id="inputEmail" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+                <input class="form-check-input" type="checkbox" name="rightHanded" id="righty" checked>
+                <label class="form-check-label" for="righty">
+                    Right handed
+                </label>
+                </div>
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="leftHanded" id="lefty">
+                <label class="form-check-label" for="lefty">
+                    Left handed
+                </label>
+                </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</section>
+
+
 <img class="mini-img" src="petme.jpg" alt="img test">
