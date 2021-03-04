@@ -11,7 +11,6 @@ app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 app.use(express.static('views/images'))
 
-
 app.get('/', (req, res) => {
 	res.render('home', req.static)
 
