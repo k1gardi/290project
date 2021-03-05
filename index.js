@@ -12,20 +12,20 @@ app.use(express.urlencoded({extended: false}));
 app.use(express.static('views/images'))
 
 app.get('/', (req, res) => {
-	res.render('home', req.static)
+	res.render('home', req.static);
 
 });
 
 app.get('/hobbies', (req, res) => {
-	res.render('hobbies')
+	res.render('hobbies');
 });
 
 app.get('/health', (req, res) => {
-	res.render('health')
+	res.render('health');
 });
 
 app.get('/contact', (req, res) => {
-	res.render('contact')
+	res.render('contact');
 });
 
 app.use(function(req,res){

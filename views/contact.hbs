@@ -1,4 +1,4 @@
-<h1 style="margin-left: 2rem;">Schedule your 1-on-1 pet session</h1>
+<h1 style="margin: 1rem;">Schedule your 1-on-1 pet session</h1>
 
 <style>
 	.img-container {
@@ -6,7 +6,7 @@
 		justify-content: center;
 	}
 	.mini-img {
-		width: 35%;
+		width: 20rem;
 		height: auto;
 	}
 	.form-div {
@@ -28,9 +28,9 @@
 	}
 </style>
 
-<section class="form-sec">
-	<div class="form-div">
-  <div class="form">
+<section class="form-sec" id="form-sec">
+    <div class="form-div">
+    <div class="form">
     <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" target="_blank" method="POST">
       <div class="mb-3">
         <label for="inputName" class="form-label">Name</label>
@@ -141,12 +141,16 @@
             </div>
             <button type="submit" class="btn btn-primary" id="petSubmit">Submit</button>
         </form>
+    <a href="golden_ticket.pdf" download>
+        <button class="btn btn-primary" style="margin-top: 1rem;">Download Ticket</button>
+    </a>
     </div>
 	</div>
+
   {{!-- <a href="golden_ticket.pdf" download>Download your Golden Ticket</a> --}}
 
 </section>
 <div class="img-container">
     <img class="mini-img rounded" src="petme.jpg" alt="img test">
 </div>
-<script scr="form.js"></script>
+<script src="form.js"></script>

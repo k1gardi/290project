@@ -1,42 +1,60 @@
 <style>
     .img-container {
         display: flex;
+        flex-direction: row;
         justify-content: center;
+        margin-bottom: 1rem;">
     }
     .mini-img {
-        width: 35%;
-        height: auto;
+        height: 600px;
     }
     .breathing-rm {
-        
+        margin-left: 2rem;
+        margin: 2rem;
+    }
+    .container-div {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .inner-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .center-inner {
+        display: flex;
+        justify-content: center;
     }
 </style>
 
 
 
-<h1 style="margin-left: 2rem;">Health and Wellness</h1>
-<div class="breathing-rm">
-    <h2>Allergies</h2>
-    <p>This guy....</p>
-    <ul>
-        <li>Beef</li>
-        <li>Milk</li>
-        <li>Venison</li>
-        <li>Kangaroo</li>
-        <li>Chicken</li>
-        <li>Turkey</li>
-        <li>Lamb</li>
-        <li>Pork</li>
-        <li>Rabbit</li>
-        <li>Pinto Beans</li>
-        <li>Wheat</li>
-    </ul>
-</div>
-<h2>Breed Results</h2>
-<div class="breathing-rm">
-    <div class="img-container">
-        <img class="mini-img rounded" src="breed.png" alt="img test">
+<h1 style="margin: 1rem;">Health and Wellness</h1>
+<div class="container-div">
+    <div class="inner-div">
+        <div class="center-inner">
+            <h2>Family Tree</h2>
+        </div>
+        <img src="tree.png" alt="img test">
+        <div class="center-inner">
+            <p>For more information, visit Embark: </p>
+            <a href="http://embk.me/koda1458?utm_campaign=cns_ref_dog_pub_profile&utm_medium=other&utm_source=embark" target="_blank">  More Info!</a> 
+        </div>
     </div>
-    <p>To find out more information, click the link below</p>
-    <a href="http://embk.me/koda1458?utm_campaign=cns_ref_dog_pub_profile&utm_medium=other&utm_source=embark" target="_blank">More Info!</a> 
+    <div class="inner-div">
+        <h2>Allergies</h2>
+        <ul>
+            <li>Beef</li>
+            <li>Milk</li>
+            <li>Venison</li>
+            <li>Kangaroo</li>
+            <li>Chicken</li>
+            <li>Turkey</li>
+            <li>Lamb</li>
+            <li>Pork</li>
+            <li>Rabbit</li>
+            <li>Pinto Beans</li>
+            <li>Wheat</li>
+        </ul>
+    </div>
 </div>

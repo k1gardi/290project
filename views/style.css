@@ -1,0 +1,78 @@
+/* health */
+.img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1rem>
+}
+.mini-img {
+    height: 600px;
+}
+.breathing-rm {
+    margin-left: 2rem;
+    margin: 2rem;
+}
+.container-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+.inner-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.center-inner {
+    display: flex;
+    justify-content: center;
+}
+/* contact */
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+.mini-img {
+    width: 35%;
+    height: auto;
+}
+.form-div {
+    display: flex;
+    justify-content: center;
+}
+.form {
+    width: 95%;
+    padding: 10px;
+}
+.tos {
+    height: 250px;
+    line-height: 3em;
+    overflow: scroll;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #777;
+}
+
+/* Hobbies */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.card-add {
+    margin: 50px;
+
+}
+
+/* home */
+.carousel-item {
+    height: 40rem;
+    background: #777;
+    color: white;
+    position: relative;
+}
+.car-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

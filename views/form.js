@@ -1,9 +1,12 @@
 document.addEventListener('DOMContentLoaded', bindButton);
 
-function bindButton() {
+
+function bindButton(){
+
 	console.log("binding");
 
 	let submitBtn = document.getElementById("petSubmit");
+	
 	submitBtn.addEventListener('click', function(even) {
 		console.log("clicked");
 		let success = document.createElement("h2");
@@ -17,6 +20,5 @@ function bindButton() {
 		document.getElementById("form-sec").appendChild(success);
 		document.getElementById("form-sec").appendChild(downloadLink);
 	})
-
 
 }
